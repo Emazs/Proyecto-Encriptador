@@ -5,7 +5,6 @@ var botton_des = document.querySelector(".desencriptar");
 document.querySelector(".copiar").style.display = "none";
 document.querySelector(".resultado").disabled = true;
 
-
 /*- Si el área de texto está vacía, muestra la clase "persona" y oculta la clase "copiar". 
   - Si el área de texto no está vacía, oculta la clase "persona" y muestra la clase "copiar".*/
 function prueba(){
@@ -49,23 +48,21 @@ function encriptador(){
         let tamanho = para.length;
         for(let i = 0; i < tamanho ;i += 1){
             for(let ii = 0 ; ii < tamanho ; ii += 1){
-                if(vocales[i] == para[ii]){
-                    if(para[ii] == 'a'){
-                        para[ii] = "ai";
-                    }  
-                    else if(para[ii] == 'o'){
-                        para[ii] = "ober";
-                    }  
-                    else if(para[ii] == 'e'){
-                        para[ii] = "enter";
-                    }  
-                    else if(para[ii] == "i"){
-                        para[ii] = "imes";
-                    }  
-                    else if(para[ii] == "u"){
-                        para[ii] = "ufat";
-                    }  
-                }
+                if(para[ii] == 'a'){
+                    para[ii] = "ai";
+                }  
+                else if(para[ii] == 'o'){
+                    para[ii] = "ober";
+                }  
+                else if(para[ii] == 'e'){
+                    para[ii] = "enter";
+                }  
+                else if(para[ii] == "i"){
+                    para[ii] = "imes";
+                }  
+                else if(para[ii] == "u"){
+                    para[ii] = "ufat";
+                }  
             }
         }
         let x = para.join('');
