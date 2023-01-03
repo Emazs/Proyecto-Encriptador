@@ -186,7 +186,7 @@ body{
 
     .resultado{
         width: 90%;
-        height: 160px; 
+        height: 240px; 
     }
 
     .resultado::placeholder{
@@ -199,12 +199,10 @@ body{
     }
 
     .copiar{
-        top: 58em;
+        top: 61em;
         width: 82%;
-        
     }
 }
-
 
 /* Responsive para tablet */
 @media (min-width: 500px) and (max-width: 768px) {
@@ -237,7 +235,7 @@ body{
 
     .resultado{
         width: 93%;
-        height: 160px; 
+        height: 245px; 
     }
     
     .resultado::placeholder{
@@ -250,9 +248,7 @@ body{
     }
 
     .copiar{
-        top: 60em;
-        width: 93%;
-        
+        top: 64em;
+        width: 84%;
     }
-
 }
