@@ -40,7 +40,7 @@ function encriptador(){
     cod = expReg.test(parrafo.value); 
 
     if (cod === true) {
-        alert('Evite agregar mayúsculas y caracteres especialesc');
+        alert('Evite agregar mayúsculas y caracteres especiales');
     }
     else{
         let vocales = ["a","e","i","o","u"];
